@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, withRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Info from "./Info";
 import Contact from "./Contact";
@@ -25,4 +25,4 @@ class App extends Component {
 
 // {process.env.PUBLIC_URL}
 
-export default withRouter(App);
+export default App;
