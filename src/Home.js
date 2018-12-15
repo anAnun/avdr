@@ -7,6 +7,7 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <Nav />
+        <div className="background-image-app" />
         <div className="home-screen" />
         <div className="pic-block" />
         <div className="bottom-block">

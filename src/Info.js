@@ -1,10 +1,11 @@
 import React from "react";
+import Nav from "./Nav";
 
 class Info extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div />
+        <Nav />
       </React.Fragment>
     );
   }
