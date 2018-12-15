@@ -90,7 +90,7 @@ class Nav extends React.Component {
               className="buttons-line-container"
               id="buttons-line-container-id"
             >
-              <a href={process.env.PUBLIC_URL + "/"} rel="noopener noreferrer">
+              <a href="/" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
@@ -98,10 +98,7 @@ class Nav extends React.Component {
                   <span>Home</span>
                 </button>
               </a>
-              <a
-                href={process.env.PUBLIC_URL + "/info"}
-                rel="noopener noreferrer"
-              >
+              <a href="/info" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
@@ -109,10 +106,7 @@ class Nav extends React.Component {
                   <span>Info</span>
                 </button>
               </a>
-              <a
-                href={process.env.PUBLIC_URL + "/contact"}
-                rel="noopener noreferrer"
-              >
+              <a href="/contact" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
