@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="background-image-app" />
-        <HashRouter basename="https://ananun.github.io/avdr">
+        <HashRouter>
           <Switch>
             <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
             <Route
