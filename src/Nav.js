@@ -75,6 +75,10 @@ class Nav extends React.Component {
   resume = () => {
     this.props.history.push("/resume");
   };
+
+  handler = () => {
+    this.props.history.push("/");
+  };
   render() {
     return (
       <React.Fragment>
@@ -90,14 +94,15 @@ class Nav extends React.Component {
               className="buttons-line-container"
               id="buttons-line-container-id"
             >
-              <a href="/" rel="noopener noreferrer">
-                <button
-                  className="Home-nav-buttons-after"
-                  id="Home-nav-buttons-after-id"
-                >
-                  <span>Home</span>
-                </button>
-              </a>
+              {/* <a href="/" rel="noopener noreferrer"> */}
+              <button
+                onClick={() => this.handler()}
+                className="Home-nav-buttons-after"
+                id="Home-nav-buttons-after-id"
+              >
+                <span>Home</span>
+              </button>
+              {/* </a> */}
               <a href="/info" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"

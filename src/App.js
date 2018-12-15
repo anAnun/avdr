@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, withRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Info from "./Info";
 import Contact from "./Contact";
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="background-image-app" />
-        <HashRouter basename="https://ananun.github.io/avdr/#/">
+        <HashRouter basename="https://ananun.github.io/avdr">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/info" component={Info} />
@@ -25,4 +25,4 @@ class App extends Component {
 
 // {process.env.PUBLIC_URL}
 
-export default App;
+export default withRouter(App);
