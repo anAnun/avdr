@@ -91,7 +91,7 @@ class Nav extends React.Component {
               id="buttons-line-container-id"
             >
               <button
-                onClick={() => this.props.history.push("/")}
+                onClick={() => this.history.props.push("/")}
                 className="Home-nav-buttons-after"
                 id="Home-nav-buttons-after-id"
               >
@@ -99,7 +99,7 @@ class Nav extends React.Component {
               </button>
 
               <button
-                onClick={() => this.props.history.push("/info")}
+                onClick={() => this.history.props.push("/info")}
                 className="Home-nav-buttons-after"
                 id="Home-nav-buttons-after-id"
               >
@@ -107,7 +107,7 @@ class Nav extends React.Component {
               </button>
 
               <button
-                onClick={this.props.history.push("/contacts")}
+                onClick={() => this.history.props.push("/contacts")}
                 className="Home-nav-buttons-after"
                 id="Home-nav-buttons-after-id"
               >
