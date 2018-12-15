@@ -99,7 +99,7 @@ class Nav extends React.Component {
               </button>
 
               <button
-                onClick={() => this.history.props.push("/info")}
+                onClick={() => this.props.history.push("/info")}
                 className="Home-nav-buttons-after"
                 id="Home-nav-buttons-after-id"
               >
