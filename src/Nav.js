@@ -90,7 +90,7 @@ class Nav extends React.Component {
               className="buttons-line-container"
               id="buttons-line-container-id"
             >
-              <a href="/" rel="noopener noreferrer">
+              <a href="/avdr/#/" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
@@ -98,7 +98,7 @@ class Nav extends React.Component {
                   <span>Home</span>
                 </button>
               </a>
-              <a href="/info" rel="noopener noreferrer">
+              <a href="/avdr/#/#info" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
@@ -106,7 +106,7 @@ class Nav extends React.Component {
                   <span>Info</span>
                 </button>
               </a>
-              <a href="/contact" rel="noopener noreferrer">
+              <a href="/avdr/#/#contact" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
