@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/avdr/static/js/runtime~main.fd32eeaf.js"
   },
   {
-    "revision": "364391bf6ac806e2a9d6",
-    "url": "/avdr/static/js/main.364391bf.chunk.js"
+    "revision": "c6325bfd1ce8a214b00e",
+    "url": "/avdr/static/js/main.c6325bfd.chunk.js"
   },
   {
     "revision": "4eba2167ebf326e86679",
     "url": "/avdr/static/js/1.4eba2167.chunk.js"
   },
   {
-    "revision": "364391bf6ac806e2a9d6",
+    "revision": "c6325bfd1ce8a214b00e",
     "url": "/avdr/static/css/main.1aed0bfa.chunk.css"
   },
   {
-    "revision": "a8b648f415068c39d80707b21743a3c0",
+    "revision": "d10cbc9a3c110348c04dcf22713a7896",
     "url": "/avdr/index.html"
   }
 ];
