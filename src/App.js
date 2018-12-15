@@ -13,8 +13,9 @@ class App extends Component {
         <HashRouter basename="https://ananun.github.io/avdr">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/info" component={Info} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/avdr/#/" component={Home} />
+            <Route exact path="/avdr/#/#info" component={Info} />
+            <Route exact path="/avdr/#/#contact" component={Contact} />
             <Route component={() => <div>404 Not found </div>} />
           </Switch>
         </HashRouter>
