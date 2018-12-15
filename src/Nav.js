@@ -90,29 +90,30 @@ class Nav extends React.Component {
               className="buttons-line-container"
               id="buttons-line-container-id"
             >
-              <button
-                onClick={() => this.history.props.push("/")}
-                className="Home-nav-buttons-after"
-                id="Home-nav-buttons-after-id"
-              >
-                <span>Home</span>
-              </button>
-
-              <button
-                onClick={() => this.history.props.push("/info")}
-                className="Home-nav-buttons-after"
-                id="Home-nav-buttons-after-id"
-              >
-                <span>Info</span>
-              </button>
-
-              <button
-                onClick={() => this.history.props.push("/contacts")}
-                className="Home-nav-buttons-after"
-                id="Home-nav-buttons-after-id"
-              >
-                <span>Contact</span>
-              </button>
+              <a href="/" rel="noopener noreferrer">
+                <button
+                  className="Home-nav-buttons-after"
+                  id="Home-nav-buttons-after-id"
+                >
+                  <span>Home</span>
+                </button>
+              </a>
+              <a href="/info" rel="noopener noreferrer">
+                <button
+                  className="Home-nav-buttons-after"
+                  id="Home-nav-buttons-after-id"
+                >
+                  <span>Info</span>
+                </button>
+              </a>
+              <a href="/contact" rel="noopener noreferrer">
+                <button
+                  className="Home-nav-buttons-after"
+                  id="Home-nav-buttons-after-id"
+                >
+                  <span>Contact</span>
+                </button>
+              </a>
             </div>
           </div>
         </header>
