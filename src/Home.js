@@ -10,7 +10,7 @@ class Home extends React.Component {
         <div className="home-screen" />
         <div className="pic-block" />
         <div className="bottom-block">
-          <div className="description">hello</div>
+          <div className="description">hello Dave</div>
           <br />
           <br />
           <br />
