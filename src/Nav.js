@@ -98,15 +98,15 @@ class Nav extends React.Component {
                 <span>Home</span>
               </button>
 
-              <a href="/#info" rel="noopener noreferrer">
-                <button
-                  className="Home-nav-buttons-after"
-                  id="Home-nav-buttons-after-id"
-                >
-                  <span>Info</span>
-                </button>
-              </a>
-              <a href="/#contact" rel="noopener noreferrer">
+              <button
+                onClick={() => this.props.history.push("/info")}
+                className="Home-nav-buttons-after"
+                id="Home-nav-buttons-after-id"
+              >
+                <span>Info</span>
+              </button>
+
+              <a href="/contact" rel="noopener noreferrer">
                 <button
                   className="Home-nav-buttons-after"
                   id="Home-nav-buttons-after-id"
