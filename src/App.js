@@ -10,19 +10,11 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="background-image-app" />
-        <HashRouter basename="https://ananun.github.io/avdr/">
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-            <Route
-              exact
-              path={process.env.PUBLIC_URL + "/info"}
-              component={Info}
-            />
-            <Route
-              exact
-              path={process.env.PUBLIC_URL + "/contact"}
-              component={Contact}
-            />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/info" component={Info} />
+            <Route exact path="/contact" component={Contact} />
             <Route component={() => <div>404 Not found </div>} />
           </Switch>
         </HashRouter>
@@ -31,6 +23,6 @@ class App extends Component {
   }
 }
 
-// {process.env.PUBLIC_URL}
+// "https://ananun.github.io/avdr/"
 
 export default App;
