@@ -1,0 +1,88 @@
+.buttons-line-container {
+    margin: 50px auto 0;
+    width: 100vw;
+    transition: .5s;
+    background-color: #004466;
+}
+
+.buttons-line-container-smaller {
+    margin: 0;
+    width: 100vw;
+    transition: .5s;
+    height: 60px;
+    background-color: #00000000;
+}
+
+
+.Home-content-name {
+    transition: 0.5s;
+    position: fixed;
+    height: 100px;
+    margin-top: -10px;
+    background-color: #004466;
+}
+
+/* .Home-content-name-smaller {
+    transition: 0.5s;
+    height: 0;
+} */
+
+.Home-content-name-smaller {
+    position: fixed;
+    transition: 0.5s;
+}
+
+
+.Home-header{
+    background-size: cover;
+    background-color: #004466;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+    position: fixed;
+}
+
+.Home-header-remove{
+    transition: 0.5s;
+    background-color: #00000000;
+    position: fixed;
+}
+
+.Home-header-text{
+    font-size: 40px;
+    width: 100vw;
+    margin: -35px auto 0 10PX;
+    /* background-color: #3f5866; */
+    color:#ff2105;
+}
+
+.Home-header-text-remove {
+    color: #00000000;
+}
+
+
+.Home-nav-buttons-after{
+    color: #e4e5e6;
+    background: transparent;
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+    border: none;
+    font-style: italic;
+    font-family: "voiceinmyhead";
+    font-size: 25px;
+    padding: 0 !important;
+    position: relative; 
+    transition: 1s; 
+}
+
+.Home-nav-buttons-after:hover {
+    color: #ff2105;
+    transition: 1s;
+}
+
+.Home-nav-buttons-after-remove {
+    color: #00000000;
+    background: transparent;
+    border: none;
+}

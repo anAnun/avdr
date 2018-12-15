@@ -1,0 +1,22 @@
+
+.bottom-block{
+    background-color: #e4e5e6;
+}
+
+.description {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: "Play";
+    color: #004466;
+}
+
+.home-screen{
+    height: 100vh;
+    background-color: #004466;
+}
+
+.pic-block{
+    height: 80vh;
+}

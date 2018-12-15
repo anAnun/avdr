@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Info from "./Info";
 import Contact from "./Contact";
@@ -8,7 +9,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <HashRouter>
+        <div className="background-image-app" />
+        <HashRouter basename="https://ananun.github.io/avdr/">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/info" component={Info} />
