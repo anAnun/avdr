@@ -29,12 +29,6 @@ class Contact extends React.Component {
           <div>fax: 818-982-2118</div>
           <div>Address: 7361 Laurel Canyon Blvd North Hollywood CA 91605</div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div className="credit-container">
           <div className="credit-photo">
             Background Photo from{" "}
