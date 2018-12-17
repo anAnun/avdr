@@ -22,8 +22,9 @@ class Home extends React.Component {
           href="https://goo.gl/maps/4aKR7c1yQQu"
           target="_blank"
           className="map-a-tag"
+          rel="noopener noreferrer"
         >
-          <img src={map} className="map-block" />
+          <img src={map} className="map-block" alt="" />
         </a>
         {/* </div> */}
         {/* </a> */}

@@ -19,8 +19,7 @@ class Nav extends React.Component {
       homeHeaderName = document.getElementById("Home-header-name-id"),
       homeHeader = document.getElementById("Home-header-id"),
       headerWrapper = document.getElementById("Home-header-text-id"),
-      buttons = document.getElementById("buttons-line-container-id"),
-      resume = document.getElementById("Home-nav-buttons-after-id");
+      buttons = document.getElementById("buttons-line-container-id");
 
     if (distanceY > shrinkOn) {
       homeHeaderName.classList.add("Home-content-name-smaller");
@@ -67,9 +66,6 @@ class Nav extends React.Component {
     });
   };
 
-  resume = () => {
-    this.props.history.push("/resume");
-  };
   render() {
     return (
       <React.Fragment>
@@ -104,9 +100,6 @@ class Nav extends React.Component {
             </div>
           </div>
         </header>
-        {/* ) : (
-            ""
-          )} */}
       </React.Fragment>
     );
   }
