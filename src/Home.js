@@ -31,8 +31,6 @@ class Home extends React.Component {
         <div className="bottom-block">
           <br />
           <br />
-          <br />
-          <br />
           <div className="description">
             Welcome to All Valley Dealer Recovery, providing over 20 years of
             service repossessing units for financial institutions, varying from
