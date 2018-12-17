@@ -1,4 +1,4 @@
-@media (max-width: 600px){
+@media (max-width: 600px){    
     .Home-header-text{
         font-size: 20px;
         margin-left: auto;
@@ -9,5 +9,9 @@
         width: none;
         max-width: 90%;
         min-width: 90%;
+    }
+    
+    .text-contact-container div{
+        font-size: 25px;
     }
 }
