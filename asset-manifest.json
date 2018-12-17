@@ -1,16 +1,16 @@
 {
-  "main.css": "/avdr/static/css/main.67ab82a4.chunk.css",
-  "main.js": "/avdr/static/js/main.743a0eab.chunk.js",
-  "main.js.map": "/avdr/static/js/main.743a0eab.chunk.js.map",
+  "main.css": "/avdr/static/css/main.e05610e9.chunk.css",
+  "main.js": "/avdr/static/js/main.cffa4e24.chunk.js",
+  "main.js.map": "/avdr/static/js/main.cffa4e24.chunk.js.map",
   "static/js/1.0e5f6b00.chunk.js": "/avdr/static/js/1.0e5f6b00.chunk.js",
   "static/js/1.0e5f6b00.chunk.js.map": "/avdr/static/js/1.0e5f6b00.chunk.js.map",
   "runtime~main.js": "/avdr/static/js/runtime~main.fd32eeaf.js",
   "runtime~main.js.map": "/avdr/static/js/runtime~main.fd32eeaf.js.map",
-  "static/css/main.67ab82a4.chunk.css.map": "/avdr/static/css/main.67ab82a4.chunk.css.map",
+  "static/css/main.e05610e9.chunk.css.map": "/avdr/static/css/main.e05610e9.chunk.css.map",
   "static/media/avdr.jpg": "/avdr/static/media/avdr.f2c303b4.jpg",
   "static/media/Contact.css": "/avdr/static/media/contact.a894432b.jpg",
   "static/media/Home.css": "/avdr/static/media/LA.ca77e2f4.jpg",
   "index.html": "/avdr/index.html",
-  "precache-manifest.2dc1d74a702b77b64500a9a3af1a2a6d.js": "/avdr/precache-manifest.2dc1d74a702b77b64500a9a3af1a2a6d.js",
+  "precache-manifest.63334c2ddecaa15ef3c05bea88fb7e0a.js": "/avdr/precache-manifest.63334c2ddecaa15ef3c05bea88fb7e0a.js",
   "service-worker.js": "/avdr/service-worker.js"
 }
