@@ -1,10 +1,19 @@
-
+.background-image-app{
+    background-image: url("./images/LA.jpg");
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -99999999999999999;
+  }
+  
 .bottom-block{
     background-color: #e4e5e6;
 }
 
 .description {
-    max-width: 500px;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
@@ -12,11 +21,32 @@
     color: #004466;
 }
 
+.description-block{
+    background-color: #e4e5e6a4;
+    width: 90%;
+    margin: auto;
+    
+}
+
 .home-screen{
     height: 100vh;
     background-color: #004466;
 }
 
+.map-container{
+    width: 697px;
+    height: 448px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+}
+
 .pic-block{
-    height: 80vh;
+    /* height: 60vh; */
+    padding-top: 100px;
+    background-color: #e4e5e6;
+}
+
+.under-header{
+    position: absolute;
 }

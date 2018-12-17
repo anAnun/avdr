@@ -14,7 +14,7 @@ class Nav extends React.Component {
 
   resizeHeaderOnScroll = () => {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-      shrinkOn = window.innerHeight,
+      shrinkOn = 70,
       homeHeaderName = document.getElementById("Home-header-name-id"),
       homeHeader = document.getElementById("Home-header-id"),
       headerWrapper = document.getElementById("Home-header-text-id"),
