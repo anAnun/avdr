@@ -1,0 +1,13 @@
+@media (max-width: 600px){
+    .Home-header-text{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-a-tag{
+        width: none;
+        max-width: 90%;
+        min-width: 90%;
+    }
+}

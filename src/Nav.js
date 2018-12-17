@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import "./media600.css";
 
 class Nav extends React.Component {
   state = {
@@ -34,9 +35,6 @@ class Nav extends React.Component {
       buttons.classList.add("buttons-line-container-smaller");
       buttons.classList.remove("buttons-line-container");
 
-      resume.classList.add("Home-nav-buttons-after-remove");
-      resume.classList.remove("Home-nav-buttons-after");
-
       this.setState({ headerRemove: true });
     } else {
       homeHeaderName.classList.remove("Home-content-name-smaller");
@@ -51,9 +49,6 @@ class Nav extends React.Component {
       buttons.classList.remove("buttons-line-container-smaller");
       buttons.classList.add("buttons-line-container");
       //   console.log("top");
-      resume.classList.remove("Home-nav-buttons-after-remove");
-      resume.classList.add("Home-nav-buttons-after");
-
       this.setState({ headerRemove: false });
     }
   };
@@ -96,14 +91,6 @@ class Nav extends React.Component {
                   id="Home-nav-buttons-after-id"
                 >
                   <span>Home</span>
-                </button>
-              </a>
-              <a href="#/info/" rel="noopener noreferrer">
-                <button
-                  className="Home-nav-buttons-after"
-                  id="Home-nav-buttons-after-id"
-                >
-                  <span>Info</span>
                 </button>
               </a>
               <a href="#/contact/" rel="noopener noreferrer">

@@ -9,16 +9,24 @@ class Home extends React.Component {
       <React.Fragment>
         <Nav />
         <div className="background-image-app" />
-
         <div className="pic-block" />
-        <div>
-          Located in the heard of North Hollywood right by the 170 freeway!
+        <div className="text-block">
+          <div className="center">
+            Located in the heart of North Hollywood right by the 170 freeway!
+          </div>
         </div>
-        <div className="map-container">
-          <a href="https://goo.gl/maps/4aKR7c1yQQu" target="_blank">
-            <img src={map} />
-          </a>
-        </div>
+        {/* <div className="map-block">
+          <div className="map-container"> */}
+        {/* <div className="map-tag-container"> */}
+        <a
+          href="https://goo.gl/maps/4aKR7c1yQQu"
+          target="_blank"
+          className="map-a-tag"
+        >
+          <img src={map} className="map-block" />
+        </a>
+        {/* </div> */}
+        {/* </a> */}
         <div className="bottom-block">
           <br />
           <br />

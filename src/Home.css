@@ -12,6 +12,14 @@
     background-color: #e4e5e6;
 }
 
+.center{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-family: "Play";
+    color: #004466; 
+}
+
 .description {
     max-width: 80vw;
     margin-left: auto;
@@ -21,9 +29,8 @@
     color: #004466;
 }
 
-.description-block{
-    background-color: #e4e5e6a4;
-    width: 90%;
+.text-block{
+    background-color: #e4e5e6a6;
     margin: auto;
     
 }
@@ -33,12 +40,27 @@
     background-color: #004466;
 }
 
+.map-a-tag{
+    z-index: 999999;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.map-block{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
 .map-container{
-    width: 697px;
-    height: 448px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;  
+    text-align: center;
+}
+
+.map-tag-container{
+    position: relative;
 }
 
 .pic-block{
