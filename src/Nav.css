@@ -1,14 +1,14 @@
 .buttons-line-container {
     margin: 50px auto 0;
     width: 100vw;
-    transition: .5s;
+    transition: .2s;
     background-color: #004466;
 }
 
 .buttons-line-container-smaller {
     margin: 0;
     width: 100vw;
-    transition: .5s;
+    transition: .2s;
     height: 60px;
     background-color: #004466;
 }
@@ -17,9 +17,10 @@
 .Home-content-name {
     transition: 0.5s;
     position: fixed;
-    /* height: 100px; */
+    height: 100px;
     /* margin-top: -10px; */
     background-color: #004466;
+    transition: .5s;
 }
 
 /* .Home-content-name-smaller {
@@ -44,7 +45,6 @@
 
 .Home-header-remove{
     transition: 0.5s;
-    background-color: #00000000;
     position: fixed;
 }
 
@@ -55,10 +55,17 @@
     /* background-color: #3f5866; */
     color:#ff2105;
     font-family: "Playfair Display";
+    transition: .5s;
 }
 
 .Home-header-text-remove {
-    color: #00000000;
+    transition: .5s;
+    font-size: 35px;
+    width: 100vw;
+    margin: -100px auto 0 10PX;
+    /* background-color: #3f5866; */
+    color:#ff2105;
+    font-family: "Playfair Display";
 }
 
 
@@ -74,7 +81,7 @@
     font-size: 25px;
     padding: 0 !important;
     position: relative; 
-    transition: 1s; 
+    transition: .2s; 
 }
 
 .Home-nav-buttons-after:hover {
@@ -86,4 +93,5 @@
     color: #00000000;
     background: transparent;
     border: none;
+    transition: .2s;
 }
