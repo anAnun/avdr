@@ -36,8 +36,13 @@ class Home extends React.Component {
             service repossessing units for financial institutions, varying from
             motorcycles, automobiles, water crafts and Recreational vehicles.
           </div>
+          {/* All Valley Dealer Recovery inc.
+        get email
+        facility photos: pics of yard
+        coverage area: list of cities with zipcodes */}
           <br />
           <br />
+          <div>State License number: RA1822</div>
         </div>
       </React.Fragment>
     );

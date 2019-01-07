@@ -97,6 +97,14 @@ class Nav extends React.Component {
                   <span>Contact</span>
                 </button>
               </a>
+              <a href="#/order" rel="noopener noreferrer">
+                <button
+                  className="Home-nav-buttons-after"
+                  id="Home-nav-buttons-after-id"
+                >
+                  <span>Order</span>
+                </button>
+              </a>
             </div>
           </div>
         </header>
