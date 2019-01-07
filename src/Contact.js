@@ -37,6 +37,7 @@ class Contact extends React.Component {
             </a>
           </div>
         </div>
+        <div>State License number: RA1822</div>
       </React.Fragment>
     );
   }

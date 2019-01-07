@@ -3,7 +3,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Info from "./Info";
 import Contact from "./Contact";
-import Order from "./Order";
+import Coverage from "./Coverage";
 import "./App.css";
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
             <Route exact path="/home" component={Home} />
             <Route exact path="/info" component={Info} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/order" component={Order} />
+            <Route exact path="/coverage" component={Coverage} />
             <Route component={() => <div>404 Not found </div>} />
           </Switch>
         </HashRouter>
