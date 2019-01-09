@@ -28,6 +28,10 @@ class Contact extends React.Component {
           <a href="tel:+1-818-982-7376">818-982-7376</a>
           <div>fax: 818-982-2118</div>
           <div>Address: 7361 Laurel Canyon Blvd North Hollywood CA 91605</div>
+          <div>email: info@allvalleyrepo.com</div>
+          <a href="mailto:info@allvalleyrepo.com">info@allvalleyrepo.com</a>
+          <div>State License number: RA1822</div>
+          <div>To submit an assignment please use RDN or call our office.</div>
         </div>
         <div className="credit-container">
           <div className="credit-photo">
@@ -37,7 +41,6 @@ class Contact extends React.Component {
             </a>
           </div>
         </div>
-        <div>State License number: RA1822</div>
       </React.Fragment>
     );
   }
