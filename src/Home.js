@@ -33,8 +33,26 @@ class Home extends React.Component {
           <br />
           <div className="description">
             Welcome to All Valley Dealer Recovery, providing over 20 years of
-            service repossessing units for financial institutions, varying from
-            motorcycles, automobiles, water crafts and Recreational vehicles.
+            experience repossessing units for financial institutions, varying
+            from motorcycles, automobiles, water crafts and Recreational
+            vehicles.
+          </div>
+          <div className="description">
+            <li className="block">
+              We use top of the line technology to locate and transport vehicles
+              to our secured storage facility including 24 hour security guards
+              and a high-tech surveillance system.
+            </li>
+            <li className="block">
+              We have sneaker trucks, dollies for 4x4, motor cycles, and all
+              wheel drive trucks, 5th wheel truck for trailers, and a flat bed.
+            </li>
+            <li className="block">
+              We have key service, and professional locksmiths on hand.
+            </li>
+            <li className="block">
+              We are all licensed by the state of California.
+            </li>
           </div>
           {/* All Valley Dealer Recovery inc.
         get email
