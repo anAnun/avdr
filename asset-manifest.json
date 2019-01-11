@@ -1,7 +1,7 @@
 {
   "main.css": "/avdr/static/css/main.bee8af34.chunk.css",
-  "main.js": "/avdr/static/js/main.c858f6a6.chunk.js",
-  "main.js.map": "/avdr/static/js/main.c858f6a6.chunk.js.map",
+  "main.js": "/avdr/static/js/main.f17c0128.chunk.js",
+  "main.js.map": "/avdr/static/js/main.f17c0128.chunk.js.map",
   "static/js/1.cc822c97.chunk.js": "/avdr/static/js/1.cc822c97.chunk.js",
   "static/js/1.cc822c97.chunk.js.map": "/avdr/static/js/1.cc822c97.chunk.js.map",
   "runtime~main.js": "/avdr/static/js/runtime~main.fd32eeaf.js",
@@ -11,6 +11,6 @@
   "static/media/Contact.css": "/avdr/static/media/contact.a894432b.jpg",
   "static/media/Home.css": "/avdr/static/media/LA.ca77e2f4.jpg",
   "index.html": "/avdr/index.html",
-  "precache-manifest.1fe3df7dde69ec91f0a37e998c8f53e1.js": "/avdr/precache-manifest.1fe3df7dde69ec91f0a37e998c8f53e1.js",
+  "precache-manifest.8300e615300ea01502554e8d27fd7aa5.js": "/avdr/precache-manifest.8300e615300ea01502554e8d27fd7aa5.js",
   "service-worker.js": "/avdr/service-worker.js"
 }
