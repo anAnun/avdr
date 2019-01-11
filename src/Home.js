@@ -38,21 +38,30 @@ class Home extends React.Component {
             vehicles.
           </div>
           <div className="description">
-            <li className="block">
-              We use top of the line technology to locate and transport vehicles
-              to our secured storage facility including 24 hour security guards
-              and a high-tech surveillance system.
-            </li>
-            <li className="block">
-              We have sneaker trucks, dollies for 4x4, motor cycles, and all
-              wheel drive trucks, 5th wheel truck for trailers, and a flat bed.
-            </li>
-            <li className="block">
-              We have key service, and professional locksmiths on hand.
-            </li>
-            <li className="block">
-              We are all licensed by the state of California.
-            </li>
+            <ul className="block">
+              <li className="block-marg">
+                We use top of the line technology to locate and transport
+                vehicles to our secured storage facility including 24 hour
+                security guards and a high-tech surveillance system.
+              </li>
+            </ul>
+            <ul className="block">
+              <li className="block-marg">
+                We have sneaker trucks, dollies for 4x4, motor cycles, and all
+                wheel drive trucks, 5th wheel truck for trailers, and a flat
+                bed.
+              </li>
+            </ul>
+            <ul className="block">
+              <li className="block-marg">
+                We have key service, and professional locksmiths on hand.
+              </li>
+            </ul>
+            <ul className="block">
+              <li className="block-marg">
+                We are all licensed by the state of California.
+              </li>
+            </ul>
           </div>
           {/* All Valley Dealer Recovery inc.
         get email
